@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: rgb(243, 192, 187);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 5px solid #5bbe42;
+}
+
+.center {
+    text-align: center;
+    margin-left: center;
+}
+
+h1 {
+    color: #5bbe42;
+}
+
+footer img {
+    width: 40px;
+    height: 40px
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+table, th, td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #96d4d4;
+}
+
+.fotos{
+    height: 450px;
+    width: 450px;
+    margin-left: 350px;
+}
+
+nav{
+    background-color: #5bbe42;
+}
+
+header, section, footer{
+    padding: 0 50px;
+    margin: 20px;
+}
+
+h1, h2, h3, p{
+    margin: 5px;
+}
+
+#titulo-desenho{
+    text-align: center;
+    margin: 15px;
+}
+
+.foto1{
+    text-align: center;
+    margin: 25px;
+}
+.foto1 img{
+    height: 350px;
+    width:300px;
+    border-radius: 10px;
+}
